@@ -17,3 +17,4 @@ You're working away on your code, and you suddenly need to use some third-party 
 3. Run `reindeer --third-party-dir third-party buckify`. This will analyze the Cargo dependencies and (re)generate the BUCK file accordingly. If this succeeds silently then there's a good chance that nothing more is needed.
 4. Do a test build with `buck build //third-party:new-package#check` to make sure it is basically buildable.
 
+<!-- test -->
